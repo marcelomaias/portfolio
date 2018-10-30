@@ -1,0 +1,258 @@
+/* Forms
+--------------------------------------------- */
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select,
+textarea {
+	border: none;
+	border-radius: 2px;
+	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 14px;
+	width: 100%;
+	background-color: #fff;
+	transition: background-color 0.3s;
+	@include elevation(1);
+}
+
+input[type="color"]:hover,
+input[type="date"]:hover,
+input[type="datetime"]:hover,
+input[type="datetime-local"]:hover,
+input[type="email"]:hover,
+input[type="month"]:hover,
+input[type="number"]:hover,
+input[type="password"]:hover,
+input[type="search"]:hover,
+input[type="tel"]:hover,
+input[type="text"]:hover,
+input[type="time"]:hover,
+input[type="url"]:hover,
+input[type="week"]:hover,
+textarea:hover, select:hover {
+	background-color: lighten($primary-color-light, 35%);
+}
+
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+textarea:focus, select:focus {
+	outline: none;
+	background-color: lighten($primary-color-light, 35%);
+}
+
+input[type="color"] {
+	padding: 5px;
+}
+
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: #c7c7c7;
+	opacity: 1;
+	font-weight: 400;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+	color: #c7c7c7;
+	opacity: 1;
+	font-weight: 400;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	color: #c7c7c7;
+	opacity: 1;
+	font-weight: 400;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	color: #c7c7c7;
+	opacity: 1;
+	font-weight: 400;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: #c7c7c7;
+	opacity: 1;
+	font-weight: 400;
+}
+
+// ##########################################################################
+// ##########################################################################
+// ##########################################################################
+
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-image: url(../form/select-bg.svg);
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	-webkit-background-size: 20px;
+	background-size: 20px;
+}
+
+
+// ##########################################################################
+// ##########################################################################
+// ##########################################################################
+
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin: 0;
+	opacity: 0;
+	padding: 0;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+	background: url(../form/checkbox.svg) no-repeat scroll left center transparent;
+	-webkit-background-size: 15px 15px;
+	background-size: 15px 15px;
+	display: inline-block;
+	line-height: 15px;
+	margin-left: -18px;
+	padding-left: 22px;
+}
+
+input[type="checkbox"]:checked + label {
+	background-image: url(../form/checked.svg);
+	-webkit-background-size: 16px 15px;
+	background-size: 16px 15px;
+}
+
+input[type="radio"] + label {
+	background-image: url(../form/radio.svg);
+}
+
+input[type="radio"]:checked + label {
+	background-image: url(../form/radio-select.svg);
+}
+label.radio {
+	margin-right: 1em;
+	input {
+		margin-right: .5em;
+	}
+}
+
+// ##########################################################################
+// ##########################################################################
+// ##########################################################################
+
+
+button, .btn, input[type="submit"] {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: $primary-color-light;
+	background-color: $primary-color;
+	border-radius: 2px;
+	// letter-spacing: -1px;
+	cursor: pointer;
+	padding: 10px 30px;
+	margin: 0;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	outline: none;
+	position: relative;
+	transition: all 0.3s;
+	box-shadow: none;
+	@include elevation(1);
+	&:hover {
+		@include elevation(2);
+	}
+	&:active {
+		@include elevation(1);
+	}
+}
+button:disabled, .btn:disabled, input[type="submit"]:disabled {
+	opacity: .25;
+	cursor: not-allowed;
+}
+button.hamburger:hover, button.hamburger:active {
+	background: none;
+}
+.btn:visited {
+	color: $white;
+}
+input[type="submit"]:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+fieldset {
+	border: none;
+	padding: 0;
+}
+.layout-content {
+	input, select, textarea {
+		border-color: $secondary-color;
+		border-radius: 20px;
+		padding: 12px 20px;
+		background-color: $white;
+		margin-bottom: 12px;
+	}
+	.quantity-selector-container {
+		input {
+			border-radius: 0;
+			border-color: $gray;
+			padding: 10px 14px;
+    		text-align: center;
+    		font-size: 14px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+
+.container {
+	margin: 0 auto;
+}
+@include screen(small) {
+  .container {
+    width: 600px;
+  }
+}
+@include screen(medium) {
+  .container {
+    width: 900px;
+  }
+}
+@include screen(large) {
+  .container {
+    width: 1200px;
+  }
+}
