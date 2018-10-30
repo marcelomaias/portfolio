@@ -1,3 +1,4 @@
-# nuxt-start-bare
+# Marcelo Maia Portfolio
 
-> Nuxt.js start project
+> Vue.js
+> Nuxt.js
