@@ -1,4 +1,4 @@
 # Marcelo Maia Portfolio
 
-> Vue.js
+> Vue.js,
 > Nuxt.js

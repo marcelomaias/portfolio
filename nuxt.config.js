@@ -41,9 +41,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-12301-2'
-    }]
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-TJ2DMP7' }]
   ],
 
   /*
