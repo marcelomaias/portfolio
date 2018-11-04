@@ -15,7 +15,7 @@ let projects = [
     imageUrl: require('@/assets/proj05.jpg'),
     demoUrl: '#',
     urlLabel: '',
-    codeUrl: '#',
+    codeUrl: 'https://github.com/marcelomaias/portfolio',
     active: true,
     skills: ['VueJS', 'Nuxt', 'Vuex']
   },
@@ -35,7 +35,7 @@ let projects = [
     imageUrl: require('@/assets/proj01.jpg'),
     demoUrl: '/projects/landing',
     urlLabel: 'View demo',
-    codeUrl: '#',
+    codeUrl: 'https://github.com/marcelomaias/vue-landing',
     active: true,
     skills: ['VueJS', 'SASS', 'Vuetify']
   },
@@ -45,7 +45,7 @@ let projects = [
     imageUrl: require('@/assets/proj02.jpg'),
     demoUrl: '/projects/vue-landing',
     urlLabel: 'View demo',
-    codeUrl: '#',
+    codeUrl: 'https://github.com/marcelomaias/vue-bands',
     active: true,
     skills: ['VueJS', 'SASS']
   },
@@ -55,20 +55,20 @@ let projects = [
     imageUrl: require('@/assets/proj03.jpg'),
     demoUrl: '/projects/video-bg',
     urlLabel: 'View demo',
-    codeUrl: '#',
-    active: true,
-    skills: ['HTML', 'CSS', 'Javascript']
-  },
-  {
-    title: 'Landing Page',
-    description: 'A Landing Page using AOS for the animations.',
-    imageUrl: require('@/assets/proj04.jpg'),
-    demoUrl: '/projects/landing',
-    urlLabel: 'View demo',
-    codeUrl: '#',
+    codeUrl: 'https://github.com/marcelomaias/video-background',
     active: true,
     skills: ['HTML', 'CSS', 'Javascript']
   }
+  // {
+  //   title: 'Landing Page',
+  //   description: 'A Landing Page using AOS for the animations.',
+  //   imageUrl: require('@/assets/proj04.jpg'),
+  //   demoUrl: '/projects/landing',
+  //   urlLabel: 'View demo',
+  //   codeUrl: '#',
+  //   active: true,
+  //   skills: ['HTML', 'CSS', 'Javascript']
+  // }
 ]
 
 export default {
