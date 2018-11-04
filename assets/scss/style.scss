@@ -1,11 +1,11 @@
-@import "normalize";
-@import "normalize_plus";
-@import "mixings";
-@import "variables";
-@import "grid";
-@import "form_elements";
-@import "hamburger";
-@import "fontello";
+@import 'normalize';
+@import 'normalize_plus';
+@import 'mixings';
+@import 'variables';
+@import 'grid';
+@import 'form_elements';
+@import 'hamburger';
+@import 'fontello';
 // @import "animate";
 
 body {
@@ -22,10 +22,14 @@ body {
     font-size: $font-size-big;
   }
 }
-h1, h2{
+h1,
+h2 {
   font-weight: $font-weight-light;
 }
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
   text-transform: uppercase;
 }
@@ -36,14 +40,16 @@ strong,
 b {
   font-weight: $font-weight-bold;
 }
-a, a:visited {
+a,
+a:visited {
   color: $secondary-color;
   text-decoration: none;
 }
 .holder {
   height: 30px;
 }
-.error, .success {
+.error,
+.success {
   display: inline-block;
   background-color: $secondary-color;
   color: #fff;
@@ -60,12 +66,13 @@ a, a:visited {
   font-size: 1.4rem;
 }
 #two {
-  a, a:visited {
+  a,
+  a:visited {
     // border-bottom: 1px dotted #000;
   }
 }
 .clear:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -102,7 +109,8 @@ section {
     background: $primary-color;
     color: $primary-color-light;
     @include elevation(1);
-    a, a:visited {
+    a,
+    a:visited {
       color: $primary-color-light;
     }
     @include screen(small) {
@@ -162,6 +170,10 @@ section {
     font-size: 80%;
     // @include elevation(1);
   }
+  h5 {
+    text-transform: uppercase;
+    margin: 1rem 0;
+  }
 }
 .image--cover {
   width: 150px;
@@ -175,10 +187,18 @@ section {
   animation: blinking 1s infinite;
 }
 @keyframes blinking {
-  0%   {opacity: 0;}
-  25%  {opacity: 0;}
-  50%  {opacity: 1;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #projects {
@@ -201,8 +221,8 @@ section {
       line-height: 0;
       background-color: $primary-color;
       img {
-        opacity: .5;
-        transition: opacity .25s;
+        opacity: 0.5;
+        transition: opacity 0.25s;
       }
     }
     .links {
@@ -216,7 +236,7 @@ section {
     }
     &:hover {
       img {
-        opacity: .85;
+        opacity: 0.85;
       }
     }
   }
@@ -226,12 +246,17 @@ section {
     right: 0;
     line-height: 1.4;
     span {
-      margin: .4rem 0;
-      margin-right: .25rem;
+      margin: 0.4rem 0;
+      margin-right: 0.25rem;
     }
   }
   .Bigben {
     .links a:last-child {
+      display: none;
+    }
+  }
+  .website {
+    .links a:first-child {
       display: none;
     }
   }
@@ -324,13 +349,14 @@ nav {
       display: block;
     }
   }
-  a, .ghost span {
+  a,
+  .ghost span {
     display: inline-block;
     text-transform: uppercase;
     font-size: 1rem;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
     transform: translate3d(0, 0, 0);
-    transition: transform .25s ease;
+    transition: transform 0.25s ease;
     .cursor {
       display: none;
       position: absolute;
@@ -346,7 +372,8 @@ nav {
 }
 @include screen(medium) {
   nav {
-    a, .ghost span {
+    a,
+    .ghost span {
       font-size: 1.4rem;
       margin-right: 1rem;
     }
@@ -357,7 +384,8 @@ nav {
     opacity: 0;
   }
   nav {
-    a, .ghost span {
+    a,
+    .ghost span {
       font-size: 1.6rem;
     }
     padding-left: 1rem;
@@ -379,20 +407,20 @@ nav {
 // }
 
 .page-enter-active {
-  animation: bounce .15s;
+  animation: bounce 0.15s;
 }
 .page-leave-active {
-  animation: bounce .15s reverse;
+  animation: bounce 0.15s reverse;
 }
 
 @keyframes bounce {
-  0% {  
-    transform: scale(.95);
+  0% {
+    transform: scale(0.95);
     opacity: 0;
   }
-  100% { 
+  100% {
     transform: scale(1);
-    opacity: 1; 
+    opacity: 1;
   }
 }
 #page-contact {
@@ -438,7 +466,7 @@ nav {
     max-height: 100px;
     vertical-align: middle;
     filter: grayscale(100%);
-    opacity: .25;
+    opacity: 0.25;
     margin: 2rem;
   }
 }

@@ -9,6 +9,7 @@
       <img src="../assets/logos/logo-html.svg" alt="">
       <img src="../assets/logos/logo-css.svg" alt="">
       <img src="../assets/logos/logo-sass.svg" alt="">
+      <img src="../assets/logos/logo-react.svg" alt="">
       <img src="../assets/logos/logo-vue.svg" alt="">
       <img src="../assets/logos/logo-node.svg" alt="">
       <img src="../assets/logos/logo-gulp.svg" alt="">
@@ -19,10 +20,9 @@
 
 <script>
 export default {
-  name: "HomeContent",
+  name: 'HomeContent'
 }
 </script>
 
 <style>
-
 </style>

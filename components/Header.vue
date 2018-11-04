@@ -9,15 +9,21 @@
       <span>HTML</span>
       <span>CSS</span>
       <span>Sass</span>
-      <span>Javascript</span>
+      <span>React</span>
       <span>VueJS</span>
+      <span>Javascript</span>
       <span>NodeJS</span>
+      <span>Git</span>
+      <span>Gulp</span>
+    </div>
+    <div class="stack">
+      <h5>Backend experience</h5>
+      <span>Apache</span>
       <span>PHP</span>
       <span>MySQL</span>
       <span>Drupal</span>
       <span>Drush</span>
       <span>Composer</span>
-      <span>Git</span>
     </div>
     <div class="social">
       <a target="_blank" href="https://www.facebook.com/marcelomaias"><i class="icon-facebook" /></a>
@@ -30,9 +36,7 @@
 </template>
 
 <script>
-export default {
-  
-}
+export default {}
 </script>
 
 
