@@ -7,15 +7,9 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    title: 'Portfolio | Marcelo Maia',
+    meta: [{ charset: 'utf-8' }, { name: 'viewport', content: 'width=device-width, initial-scale=1' }, { hid: 'description', name: 'description', content: pkg.description }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   /*
@@ -26,23 +20,17 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [
-    '@/assets/scss/style.scss'
-  ],
+  css: ['@/assets/scss/style.scss'],
 
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-    {src: '~plugins/vee-validate.js', ssr: true}
-  ],
+  plugins: [{ src: '~plugins/vee-validate.js', ssr: true }],
 
   /*
   ** Nuxt.js modules
   */
-  modules: [
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-TJ2DMP7' }]
-  ],
+  modules: [['@nuxtjs/google-tag-manager', { id: 'GTM-TJ2DMP7' }]],
 
   /*
   ** Build configuration
