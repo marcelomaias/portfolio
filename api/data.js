@@ -7,7 +7,7 @@ let projects = [
     urlLabel: 'View site',
     codeUrl: '#',
     active: true,
-    skills: ['VueJS', 'Nuxt', 'Vuex']
+    skills: ['HTML', 'SASS', 'Javascript']
   },
   {
     title: 'This website',
@@ -33,7 +33,7 @@ let projects = [
     title: 'Landing page',
     description: 'Landing page made with Vue, Material Design and AOS for the animations.',
     imageUrl: require('@/assets/proj01.jpg'),
-    demoUrl: '/projects/landing',
+    demoUrl: '/projects/vue-landing',
     urlLabel: 'View demo',
     codeUrl: 'https://github.com/marcelomaias/vue-landing',
     active: true,
@@ -43,7 +43,7 @@ let projects = [
     title: 'Bands',
     description: 'A simple SPA made with Vue showcasing a menu animation.',
     imageUrl: require('@/assets/proj02.jpg'),
-    demoUrl: '/projects/vue-landing',
+    demoUrl: '/projects/vue-bands',
     urlLabel: 'View demo',
     codeUrl: 'https://github.com/marcelomaias/vue-bands',
     active: true,
