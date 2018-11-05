@@ -3,7 +3,7 @@
     <h1>Welcome<span class="cursor">_</span></h1>
     <div class="intro">
       <p>Hello, I'm Marcelo Maia, a fontend web developer since 1999. Still learning new things everyday, as new web technologies emerge all the time.</p>
-      <p>While focusing mostly on the client side in the last couple years, I do have experience in building full projects involving backend stacks like Apache, PHP, MySQL and Drupal.</p>
+      <p>While focusing mostly on the client side in the last couple years, I also have experience working with backend technologies like Apache, PHP, MySQL and Drupal.</p>
     </div>
     <div class="logos">
       <img src="../assets/logos/logo-html.svg" alt="">
