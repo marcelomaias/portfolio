@@ -3,7 +3,7 @@
     <h1>Get in touch<span class="cursor">_</span></h1>
     
     <div class="contact-intro">
-      <p>You can use the from bellow to get in touch, or if you prefer, use the social links on the left side of the site.</p>
+      <p>You can use the form bellow to get in touch, or if you prefer, use the social links on the left side of the site.</p>
     </div>
 
     <form @submit.prevent="processForm" v-if="!mailSent">
@@ -44,8 +44,8 @@
 import axios from 'axios'
 
 export default {
-  name: "Contact",
-  data () {
+  name: 'Contact',
+  data() {
     return {
       name: '',
       email: '',
@@ -55,12 +55,12 @@ export default {
     }
   },
   computed: {
-    formIsValid () {
+    formIsValid() {
       return this.name !== '' && this.email !== '' && this.message !== '' && this.lastname == ''
     }
   },
   methods: {
-    processForm () {
+    processForm() {
       const content = {
         name: this.name,
         email: this.email,
@@ -72,14 +72,15 @@ export default {
           'Content-Type': 'application/x-www-form-urlencoded'
         }
       }
-      axios.post('https://hooks.zapier.com/hooks/catch/3107201/lqp2co/', content, config)
-      .then(function (response) {
-        // console.log(response)
-        thisForm.mailSent = true
-      })
-      .catch(function (error) {
-        console.log(error)
-      })
+      axios
+        .post('https://hooks.zapier.com/hooks/catch/3107201/lqp2co/', content, config)
+        .then(function(response) {
+          // console.log(response)
+          thisForm.mailSent = true
+        })
+        .catch(function(error) {
+          console.log(error)
+        })
     }
   }
 }
