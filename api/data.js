@@ -24,17 +24,17 @@ let projects = [
     description: 'A React SPA utilizing The MovieDB API',
     imageUrl: require('@/assets/moovee.jpg'),
     demoUrl: '/projects/moovee',
-    urlLabel: 'View Project',
+    urlLabel: 'Demo',
     codeUrl: 'https://github.com/marcelomaias/moovee',
     active: true,
     skills: ['React', 'Javascript']
   },
   {
     title: 'Landing page',
-    description: 'Landing page made with Vue, Material Design and AOS for the animations.',
+    description: 'Landing page made with Vue and AOS for the animations.',
     imageUrl: require('@/assets/proj01.jpg'),
     demoUrl: '/projects/vue-landing',
-    urlLabel: 'View demo',
+    urlLabel: 'Demo',
     codeUrl: 'https://github.com/marcelomaias/vue-landing',
     active: true,
     skills: ['VueJS', 'SASS', 'Vuetify']
@@ -44,7 +44,7 @@ let projects = [
     description: 'A simple SPA made with Vue showcasing a menu animation.',
     imageUrl: require('@/assets/proj02.jpg'),
     demoUrl: '/projects/vue-bands',
-    urlLabel: 'View demo',
+    urlLabel: 'Demo',
     codeUrl: 'https://github.com/marcelomaias/vue-bands',
     active: true,
     skills: ['VueJS', 'SASS']
@@ -54,7 +54,7 @@ let projects = [
     description: 'Video used as a background(can be paused).',
     imageUrl: require('@/assets/proj03.jpg'),
     demoUrl: '/projects/video-bg',
-    urlLabel: 'View demo',
+    urlLabel: 'Demo',
     codeUrl: 'https://github.com/marcelomaias/video-background',
     active: true,
     skills: ['HTML', 'CSS', 'Javascript']
@@ -64,7 +64,7 @@ let projects = [
   //   description: 'A Landing Page using AOS for the animations.',
   //   imageUrl: require('@/assets/proj04.jpg'),
   //   demoUrl: '/projects/landing',
-  //   urlLabel: 'View demo',
+  //   urlLabel: 'Demo',
   //   codeUrl: '#',
   //   active: true,
   //   skills: ['HTML', 'CSS', 'Javascript']
