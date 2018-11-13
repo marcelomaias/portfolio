@@ -21,7 +21,7 @@
             <p>{{ project.description }}</p>
             <div class="links">
               <a target="_blank" :href="project.demoUrl"><span v-html="project.urlLabel"/> <i class="icon-link-ext"/></a>
-              <a target="_blank" :href="project.codeUrl">View Code <i class="icon-github"/></a>
+              <a target="_blank" :href="project.codeUrl">Code <i class="icon-github"/></a>
             </div>
           </figcaption>
         </figure>
