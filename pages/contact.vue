@@ -3,7 +3,7 @@
     <h1>Get in touch<span class="cursor">_</span></h1>
     
     <div class="contact-intro">
-      <p>You can use the form bellow to get in touch, or if you prefer, use the social links on the left side of the site.</p>
+      <p>You can use the form bellow to get in touch, or if you prefer, send me an email at <a href="mailto:marcelomaias@gmail.com">marcelomaias@gmail.com</a>.</p>
     </div>
 
     <form @submit.prevent="processForm" v-if="!mailSent">
