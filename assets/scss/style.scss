@@ -368,7 +368,7 @@ nav {
     }
   }
   a.nuxt-link-exact-active {
-    border-bottom: 2px solid $primary-color;
+    border-bottom: 2px solid $secondary-color;
     left: 2rem;
     @include screen(large) {
       // position: absolute;
@@ -439,6 +439,10 @@ h1 {
     }
     .lastname {
       display: none;
+    }
+    .btn-send {
+      background: $secondary-color;
+      color: $white;
     }
   }
 }

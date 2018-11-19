@@ -1,7 +1,7 @@
 let projects = [
   {
     title: 'Bigben',
-    description: 'Ecommerce frontend implemented on the commercial CMS VTEX',
+    description: 'Ecommerce frontend on the commercial CMS VTEX',
     imageUrl: require('@/assets/bigben.jpg'),
     demoUrl: 'https://www.bigben.com.br/',
     urlLabel: 'View site',
@@ -11,8 +11,8 @@ let projects = [
   },
   {
     title: 'This website',
-    description: 'This site is made with VueJS and Nuxt, making Vue SEO friendly.',
-    imageUrl: require('@/assets/proj05.jpg'),
+    description: 'This site is made with VueJS and the SEO friendly Nuxt.',
+    imageUrl: require('@/assets/project-self.jpg'),
     demoUrl: '#',
     urlLabel: '',
     codeUrl: 'https://github.com/marcelomaias/portfolio',
@@ -21,7 +21,7 @@ let projects = [
   },
   {
     title: 'Moovee',
-    description: 'A React SPA utilizing The MovieDB API',
+    description: 'A React SPA making requests to The MovieDB API.',
     imageUrl: require('@/assets/moovee.jpg'),
     demoUrl: '/projects/moovee',
     urlLabel: 'Demo',

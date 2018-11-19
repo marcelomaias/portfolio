@@ -32,7 +32,7 @@
       </div>
 
       <div>
-        <input type="submit" :disabled="!formIsValid" value="Send">
+        <input type="submit" :disabled="!formIsValid" value="Send" class="btn-send">
       </div>
     </form>
 

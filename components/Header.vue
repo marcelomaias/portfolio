@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img class="image--cover" src="@/assets/maia-blue.jpg" alt="">
+    <img class="image--cover" src="@/assets/maia.jpg" alt="">
     <div class="name">
       Marcelo Maia
       <div class="title">Frontend web developer</div>
