@@ -6,11 +6,13 @@ $light-gray: #939393;
 $light-gray2: #f5f5f5;
 $light-gray3: #f3f3f3;
 $gray: #666;
+$black: #333;
 $white: #f2efe9;
 $green: #72b01d;
 $red: #e33a3f;
 $primary-color: #f2efe9;
-$primary-color-light: #90a4ae;
+$color-light: #90a4ae;
+$primary-color-light: darken($color-light, 10%);
 $secondary-color: #0075f2;
 
 $font-size-small: 14px;

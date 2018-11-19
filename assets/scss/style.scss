@@ -11,13 +11,11 @@
 body {
   background: $white;
   font-family: $font-family;
-  font-size: $font-size-small;
+  font-size: $font-size;
   line-height: $line-height;
   font-weight: $font-weight-light;
+  color: $black;
   margin: 0;
-  @include screen(medium) {
-    font-size: $font-size;
-  }
   @include screen(large) {
     font-size: $font-size-big;
   }
@@ -65,12 +63,7 @@ a:visited {
   @include elevation(1);
   font-size: 1.4rem;
 }
-#two {
-  a,
-  a:visited {
-    // border-bottom: 1px dotted #000;
-  }
-}
+
 .clear:after {
   content: '';
   display: table;
@@ -113,6 +106,7 @@ section {
     padding: 1rem;
     background: $primary-color;
     color: $primary-color-light;
+    position: relative;
     @include elevation(1);
     a,
     a:visited {
@@ -131,9 +125,9 @@ section {
     }
     .name {
       margin: 0 0 2rem 0;
-      font-size: 16px;
+      font-size: 20px;
       > div {
-        font-size: 70%;
+        font-size: 80%;
         text-transform: uppercase;
       }
       @include screen(medium) {
@@ -144,14 +138,32 @@ section {
       }
     }
     .social {
-      margin: 2rem 0;
+      margin: 1rem 0;
       @include screen(large) {
         font-size: 24px;
+        margin: 2rem 0;
+      }
+    }
+    small {
+      font-size: 12px;
+      width: 100%;
+      text-align: center;
+      @include screen(small) {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+      }
+      @include screen(medium) {
+        padding: 0 30px;
+      }
+      @include screen(large) {
+        padding: 0 60px;
       }
     }
   }
   #two {
     padding: 1rem;
+    font-size: 20px;
     @include screen(small) {
       margin-left: $left-width-small;
       padding: 2rem;
@@ -165,6 +177,8 @@ section {
   }
 }
 .stack {
+  margin: 0 auto;
+  max-width: 270px;
   span {
     display: inline-block;
     padding: 4px 8px;
@@ -172,7 +186,7 @@ section {
     margin: 0 0 1rem 0;
     color: $primary-color-light;
     @include border-radius(4px);
-    font-size: 80%;
+    // font-size: 80%;
     // @include elevation(1);
   }
   h5 {
@@ -226,7 +240,7 @@ section {
       line-height: 0;
       background-color: $primary-color;
       img {
-        opacity: 0.5;
+        opacity: 0.25;
         transition: opacity 0.25s;
       }
     }
@@ -250,9 +264,12 @@ section {
     bottom: 0;
     right: 0;
     line-height: 1.4;
+
     span {
+      font-size: 80%;
       margin: 0.4rem 0;
       margin-right: 0.25rem;
+      @include elevation(1);
     }
   }
   .Bigben {
@@ -271,6 +288,7 @@ figure {
   margin: 0;
   figcaption {
     padding: 1rem;
+    font-size: 80%;
   }
 }
 // @include screen(large) {
