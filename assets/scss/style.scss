@@ -239,10 +239,10 @@ section {
       position: relative;
       line-height: 0;
       background-color: $primary-color;
-      img {
-        opacity: 0.25;
-        transition: opacity 0.25s;
-      }
+      // img {
+      //   opacity: 1;
+      //   transition: opacity 0.25s;
+      // }
     }
     .links {
       text-align: right;
@@ -253,11 +253,11 @@ section {
         margin-left: 1rem;
       }
     }
-    &:hover {
-      img {
-        opacity: 0.85;
-      }
-    }
+    // &:hover {
+    //   img {
+    //     opacity: 0.25;
+    //   }
+    // }
   }
   .stack {
     position: absolute;

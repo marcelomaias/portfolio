@@ -28,7 +28,7 @@
     <div class="social">
       <a target="_blank" href="https://www.linkedin.com/in/marcelomaia/"><i class="icon-linkedin" /></a>
       <a target="_blank" href="https://github.com/marcelomaias"><i class="icon-github" /></a>
-      <a target="_blank" href="https://twitter.com/marcelomaia"><i class="icon-twitter-bird" /></a>
+      <!-- <a target="_blank" href="https://twitter.com/marcelomaia"><i class="icon-twitter-bird" /></a> -->
     </div>
     <small>I can also play electric bass if needed.<i class="icon-emo-laugh" /></small>
   </header>
